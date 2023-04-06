@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth", "JwtAuth\JwtAuth.csproj", "{2F61F563-42BA-4479-9612-B6B3E9CD885A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Auth", "Google.Auth\Google.Auth.csproj", "{7E2EBE47-F4F7-43DE-AC2F-7D992856ED3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Git.Auth", "Git.Auth\Git.Auth.csproj", "{C7A7F1A6-3DB3-4AE6-8E4C-90689D807C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Auth", "Meta.Auth\Meta.Auth.csproj", "{836F1258-2ED6-43CF-A7B7-5B577B009011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedIn.Auth", "LinkedIn.Auth\LinkedIn.Auth.csproj", "{CFDA864D-C935-4F30-B66D-E0A71BE01537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter.Auth", "Twitter.Auth\Twitter.Auth.csproj", "{006E8231-91DF-4A72-BB38-D0D87F0C44B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,25 @@ Global
 		{2F61F563-42BA-4479-9612-B6B3E9CD885A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F61F563-42BA-4479-9612-B6B3E9CD885A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F61F563-42BA-4479-9612-B6B3E9CD885A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2EBE47-F4F7-43DE-AC2F-7D992856ED3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2EBE47-F4F7-43DE-AC2F-7D992856ED3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2EBE47-F4F7-43DE-AC2F-7D992856ED3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2EBE47-F4F7-43DE-AC2F-7D992856ED3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A7F1A6-3DB3-4AE6-8E4C-90689D807C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A7F1A6-3DB3-4AE6-8E4C-90689D807C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A7F1A6-3DB3-4AE6-8E4C-90689D807C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A7F1A6-3DB3-4AE6-8E4C-90689D807C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836F1258-2ED6-43CF-A7B7-5B577B009011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836F1258-2ED6-43CF-A7B7-5B577B009011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836F1258-2ED6-43CF-A7B7-5B577B009011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836F1258-2ED6-43CF-A7B7-5B577B009011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDA864D-C935-4F30-B66D-E0A71BE01537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDA864D-C935-4F30-B66D-E0A71BE01537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDA864D-C935-4F30-B66D-E0A71BE01537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDA864D-C935-4F30-B66D-E0A71BE01537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006E8231-91DF-4A72-BB38-D0D87F0C44B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006E8231-91DF-4A72-BB38-D0D87F0C44B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006E8231-91DF-4A72-BB38-D0D87F0C44B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006E8231-91DF-4A72-BB38-D0D87F0C44B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
