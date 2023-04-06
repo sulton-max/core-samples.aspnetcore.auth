@@ -1,5 +1,5 @@
-﻿using Git.Auth.Extensions;
-using Git.Auth.Models.Dtos;
+﻿using Auth.Core.Extensions;
+using Auth.Core.Models.Dtos;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace Git.Auth.Extensions;
+namespace Auth.Core.Extensions;
 
 public static class ClaimsPrincipalExtensions
 {

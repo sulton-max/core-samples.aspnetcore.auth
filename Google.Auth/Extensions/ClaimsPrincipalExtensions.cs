@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace Git.Auth.Extensions;
+namespace Google.Auth.Extensions;
 
 public static class ClaimsPrincipalExtensions
 {

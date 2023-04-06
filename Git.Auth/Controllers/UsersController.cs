@@ -1,4 +1,4 @@
-﻿using Git.Auth.Extensions;
+﻿using Auth.Core.Extensions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Octokit;

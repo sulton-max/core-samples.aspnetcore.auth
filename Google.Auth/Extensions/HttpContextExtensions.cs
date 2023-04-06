@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 
-namespace Git.Auth.Extensions;
+namespace Google.Auth.Extensions;
 
 public static class HttpContextExtensions
 {

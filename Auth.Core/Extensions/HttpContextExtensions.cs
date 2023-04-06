@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace Git.Auth.Extensions;
+namespace Auth.Core.Extensions;
 
 public static class HttpContextExtensions
 {

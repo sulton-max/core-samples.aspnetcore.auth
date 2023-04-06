@@ -15,4 +15,8 @@
       <Folder Include="Controllers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    </ItemGroup>
+
 </Project>

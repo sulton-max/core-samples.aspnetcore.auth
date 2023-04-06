@@ -1,4 +1,4 @@
-﻿namespace Git.Auth.Models.Dtos;
+﻿namespace Auth.Core.Models.Dtos;
 
 public class SignInDto
 {

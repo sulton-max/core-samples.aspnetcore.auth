@@ -1,29 +1,26 @@
-﻿using Auth.Core.Models.Dtos;
-using Google.Auth.Extensions;
+﻿using Auth.Core.Extensions;
+using Auth.Core.Models.Dtos;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Google.Auth.Controllers;
+namespace Microsoft.Auth.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
 public class AuthController : ControllerBase
 {
+    [AllowAnonymous]
     [HttpGet("[action]")]
-    public async ValueTask<IActionResult> SignIn([FromQuery]SignInDto model)
+    public async ValueTask<IActionResult> SignIn([FromQuery] SignInDto model)
     {
         var provider = await HttpContext.GetAuthenticationProviderName(model.Provider);
         return !string.IsNullOrWhiteSpace(provider)
+            // ? Challenge(provider)
             ? Challenge(new AuthenticationProperties
             {
-                RedirectUri = "/api/users/me"
-            })
+                RedirectUri = "/api/users/me",
+            }, provider)
             : BadRequest();
-    }
-
-    [HttpGet("[action]")]
-    public new ValueTask<IActionResult> SignOut()
-    {
-        return new ValueTask<IActionResult>(base.SignOut());
     }
 }
